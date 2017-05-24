@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
-  resources :services
   resources :welcome
+  resources :dashboard
+  resources :services
 
   resources :sessions
   resources :users
@@ -9,6 +10,7 @@ Rails.application.routes.draw do
   resources :articles
 
   get 'welcome',      to: 'welcome#index'
+  get 'dashboard',    to: 'dashboard#home'
 
   get 'signup',       to: 'users#new', as: 'signup'
   get 'login',        to: 'sessions#new', as: 'login'
