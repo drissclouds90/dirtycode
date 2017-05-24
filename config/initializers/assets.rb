@@ -12,3 +12,18 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+
+Rails.application.config.assets.precompile += %w( bootstrap/css/bootstrap.css )
+
+Rails.application.config.assets.precompile += %w( device-mockups/device-mockups.css )
+Rails.application.config.assets.precompile += %w( device-mockups/device-mockups.min.css )
+
+Rails.application.config.assets.precompile += %w( device-mockups/device-mockups2.css )
+Rails.application.config.assets.precompile += %w( device-mockups/device-mockups2.min.css )
+
+Rails.application.config.assets.precompile += %w( bootstrap/css/bootstrap.css )
+Rails.application.config.assets.precompile += %w( front/welcome.css )
+
+
+
+Rails.application.config.assets.precompile += %w( slider/slides.js )

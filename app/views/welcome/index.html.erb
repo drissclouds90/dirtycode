@@ -1,0 +1,562 @@
+<% provide(:title, "Welcome") %>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<%= stylesheet_link_tag "bootstrap/css/bootstrap" %>
+<%= stylesheet_link_tag "device-mockups/device-mockups" %>
+<%= stylesheet_link_tag "device-mockups/device-mockups2" %>
+<%= stylesheet_link_tag "front/welcome" %>
+
+
+<%= javascript_include_tag "application" %>
+
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <!--<a class="logo-brand" href="#page-top">
+                  <img src="../img/brand.png">
+                </a> -->
+                <a class="navbar-brand page-scroll">Ruby on Rails</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#service">Service</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#profile">Profile</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+<body>
+    <!-- Menu Fullscreen -->
+
+
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+
+    <div class="form-box">
+
+      <div class="title-form">
+        <h1 class="title-contact">Menus</h1> <hr class="menus-full-screen-down"/>
+      </div>
+
+      <div class="grid-menus-8">
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover1.jpg">
+          </a>
+        </div>
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover2.jpg">
+          </a>
+        </div>
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover3.jpg">
+          </a>
+        </div>
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover4.jpg">
+          </a>
+        </div>
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover5.jpg">
+          </a>
+        </div>
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover6.jpg">
+          </a>
+        </div>
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover7.jpg">
+          </a>
+        </div>
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover8.jpg">
+          </a>
+        </div>
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover9.jpg">
+          </a>
+        </div>
+
+        <div class="menu-grid">
+          <a href="http://music.com">
+              <img src="../../img/cover/cover10.jpg">
+          </a>
+        </div>
+
+      </div>
+      <hr class="menus-full-screen-down">
+
+
+
+    </div>
+
+    <!--
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  -->
+  </div>
+</div>
+
+<div class="spanmenu" onclick="openNav()">&#9776; </div>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+
+
+</script>
+
+<header>
+  <div class="bg">
+
+
+    <!--<video poster="poster.jpg" autoplay="true" loop muted >
+         <source src="../../video/video2.mp4" type="video/mp4">
+    </video> -->
+
+    <div class="device-container">
+    <div class="device-mockup samsung_tv">
+      <div class="device">
+
+           <div class="shadow-box">
+             <video poster="poster.jpg" autoplay="true" loop muted >
+                  <source src="../../video/video1.mp4" type="video/mp4">
+              </video>
+             <div class="interactive-title">
+               <h1 class="title-top">Interactive Live Stream Acceleration</h1>
+               <h1 class="title-down">Deliver an interactive live stream with ultra-low latency. It’s that simple.</h1>
+
+               <div class="social-head">
+                 <div class="grid-6-social">
+                    <div class="social-circle">
+                        <a href="http://instagram.com">
+                            <img src="../../img/icon/Github.png">
+                        </a>
+                    </div><span>Github</span>
+                  </div>
+
+                   <div class="grid-6-social">
+                      <div class="social-circle">
+                          <a href="http://instagram.com">
+                              <img src="../../img/icon/Instagram.png">
+                          </a>
+                      </div><span>Instagram</span>
+                    </div>
+
+                    <div class="grid-6-social">
+                       <div class="social-circle">
+                           <a href="http://instagram.com">
+                               <img src="../../img/icon/Facebook.png">
+                           </a>
+                       </div><span>Facebook</span>
+                     </div>
+
+                     <div class="grid-6-social">
+                        <div class="social-circle">
+                            <a href="http://instagram.com">
+                                <img src="../../img/icon/Twitter.png">
+                            </a>
+                        </div><span>Twitter</span>
+                      </div>
+
+                      <div class="grid-6-social">
+                         <div class="social-circle">
+                             <a href="http://instagram.com">
+                                 <img src="../../img/icon/Google+.png">
+                             </a>
+                         </div><span>Google +</span>
+                       </div>
+
+                       <div class="grid-6-social">
+                          <div class="social-circle">
+                              <a href="http://instagram.com">
+                                  <img src="../../img/icon/Reddit.png">
+                              </a>
+                          </div><span>Reddit</span>
+                        </div>
+                    </div>
+
+                    <div id="carousel">
+  <div class="btn-bar">
+    <div id="buttons"><a id="prev" href="#"></a><a id="next" href="#"></a> </div></div>
+    <div id="slides">
+        <ul>
+            <li class="slide">
+                <div class="quoteContainer">
+                    <p class="quote-phrase"><span class="quote-marks"></span> I was literally BLOWN AWAY by Company A's work! They went above and beyond all of our expectations with design, usability. and branding, I will reccommend them to everyone I know!<class="quote-marks"></span>
+                      <span class="quote-marks"></span>
+                    </p>
+
+                </div>
+
+            </li>
+            <li class="slide">
+                <div class="quoteContainer">
+                    <p class="quote-phrase"><span class="quote-marks"></span>
+                      I could not stop staring! Company A's Web Solutions are by far the most elegant solutions, you can't beat their quality and attention to detail!
+                    <span class="quote-marks"></span>
+
+                    </p>
+                </div>
+
+            </li>
+            <li class="slide">
+                <div class="quoteContainer">
+                    <p class="quote-phrase"><span class="quote-marks"></span>Carl Fakeguy, was the most helpful designer I've ever hired. He listened to my ideas and advised against things that could negatively affect my CEO. Company A is by far the most generous and helpful company, 5/5!<span class="quote-marks"></span>
+
+                    </p>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</header>
+
+<!-- Service Content -->
+
+<section id="service" class="service">
+
+<div class="services">
+		<div class="container-service">
+			<div class="w3-agileits-heading"> <hr class="service-top">
+				<h3 class="service-title">
+          <b>Service</b>
+          </h3> <hr class="service-down">
+			</div>
+
+			<div class="wthree-services-grids">
+
+        <% @services.each do |service| %>
+				    <div class="col-md-4 w3-agileits-services-grid">
+					     <i class="<%= service.icon_code %>" style="font-size:48px; color:white;" aria-hidden="true"></i>
+					     <h4 class="service-title-content"><%= service.title %></h4>
+					     <p><%= service.content %></p> <hr>
+            </div>
+        <%end%>
+
+        <!--
+				<div class="col-md-4 w3-agileits-services-grid agile-services1">
+					<i class="fa fa-linux" style="font-size:48px; color:white;" aria-hidden="true"></i>
+					<h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+					<p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+				</div>
+
+				<div class="col-md-4 w3-agileits-services-grid">
+					<i class="fa fa-apple" style="font-size:48px; color:white;" aria-hidden="true"></i>
+					<h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+					<p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+				</div>
+
+				<div class="col-md-4 w3-agileits-services-grid">
+					<i class="fa fa-code" style="font-size:48px; color:white;" aria-hidden="true"></i>
+					<h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+					<p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+				</div>
+
+				<div class="col-md-4 w3-agileits-services-grid agile-services2">
+					<i class="fa fa-terminal" style="font-size:48px; color:white;" aria-hidden="true"></i>
+					<h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+					<p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+				</div>
+
+				<div class="col-md-4 w3-agileits-services-grid">
+					<i class="fa fa-cogs" style="font-size:48px; color:white;" aria-hidden="true"></i>
+					<h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+					<p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+				</div> -->
+
+				<div class="clearfix"> </div>
+
+			</div>
+
+		</div>
+	</div>
+
+</section>
+
+<!-- tools -->
+
+
+<div class="page-tools">
+
+    <div class="col-md-4">
+      <div class="row">
+          <div class="device-container">
+      <div class="device-mockup iphone6_plus portrait black">
+          <div class="device">
+              <div class="screen">
+
+                  <img src="../../img/screen/screenHP.jpg" class="img-responsive" alt=""> </div>
+
+          </div>
+      </div>
+
+
+  </div>
+      </div>
+    </div>
+
+    <div class="col-md-8">
+
+              <div class="section-heading">
+                  <h2 class="text-title">Awesome Tool </h2>
+                  <p class="text-title">Check out what you can do with this app theme!</p>
+                  <hr>
+              </div>
+
+
+              <div class="tools-content">
+
+                <div class="collom-content-one">
+                  <i class="fa fa-television" style="font-size:48px; color:black;" aria-hidden="true"></i>
+      					  <h4 class="tools-title-content">Quisque a rhoncus tortor</h4>
+      					  <p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p>
+                </div> <hr>
+
+                <div class="collom-content-two">
+                  <i class="fa fa-mobile-phone" style="font-size:48px; color:black;" aria-hidden="true"></i>
+      					  <h4 class="tools-title-content">Quisque a rhoncus tortor</h4>
+      					  <p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p>
+              </div> <hr>
+
+              <div class="collom-content-three">
+                  <i class="fa fa-bar-chart" style="font-size:48px; color:black;" aria-hidden="true"></i>
+      					  <h4 class="tools-title-content">Quisque a rhoncus tortor</h4>
+      					  <p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p>
+              </div> <hr>
+
+              </div>
+
+
+              <div class="tools-cover-content">
+                <img src="../../img/cover/tools-img.png">
+              </div>
+
+
+    </div>
+
+</div>
+
+<div class="clearfix"> </div>
+
+
+  <!-- Where -->
+
+  <div class="col-md-12 container-where"> <hr />
+    <div class="bg-where">
+
+
+    <div class="col-md-6">
+      <img src="../../img/icon/icon-referrals.svg" class="side-left">
+      <h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+      <p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+
+      <img src="../../img/icon/icon-transfers.svg" class="side-left">
+      <h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+      <p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+
+      <img src="../../img/icon/icon-smart-portfolios.svg" class="side-left">
+      <h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+      <p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+    </div>
+
+
+    <div class="col-md-3">
+      <i class="fa fa-dollar" style="font-size:24px; color:black;" aria-hidden="true"></i>
+      <h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+      <p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+
+      <i class="fa fa-line-chart" style="font-size:24px; color:black;" aria-hidden="true"></i>
+      <h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+      <p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+
+      <i class="fa fa-credit-card" style="font-size:24px; color:black;" aria-hidden="true"></i>
+      <h4 class="service-title-content">Quisque a rhoncus tortor</h4>
+      <p>Nam dolor arcu, interdum eget purus non, blandit accumsan justo. Duis faucibus eros dapibus efficitur volutpat.</p> <hr>
+    </div>
+
+
+    <div class="col-md-3">
+      <div class="grid-hp">
+        <div class="grid-handphone1">
+          <img src="../../img/cover/android@2x.png" alt="android">
+          <i class="grid-handphone2">
+          <img src="../../img/cover/iphone@2x.png" alt="android"></i>
+        </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<!-- Gallery page -->
+
+<div class="container-gallery">
+
+  <div class="col-md-12 container-gallery">
+
+    <div class="title-gallery">
+      <h1 class="title-gallery-top">Gallery</h1> <hr />
+    </div>
+
+    <div class="box-gallery">
+
+      <div class="img-gallery">
+        <div class="tooltip-gallery">
+          <span class="tooltiptext">====0====
+              <i class="title-tooltip">
+                <p><b>Artist</b> : All The Reamins</p>
+                <p><b>Description</b> : All That Remains is an American heavy metal band from Springfield, Massachusetts, formed in 1998.
+                  They have released eight studio albums, a live CD/DVD,
+                  and have sold over a million records worldwide.
+                  The group currently consists of vocalist Philip Labonte, guitarists Oli Herbert and Mike Martin, bassist Aaron Patrick, and former Diecast drummer Jason Costa.
+                  Labonte and Herbert are the only original members. In spite of this, the band's line-up had remained consistent from the release of 2008's Overcome until 2015's The Order of Things, spanning four albums.
+                  This line-up changed, however, in September 2015, when long-time bassist Jeanne Sagan left the band, with Patrick taking her place.
+                </p>
+                <p><b>Website</b> : 	allthatremainsonline.com </p>
+              </i>
+          </span>
+        <a target="_blank" href="../../img/cover/cover1.jpg">
+          <img src="../../img/cover/cover1.jpg" alt="Trolltunga Norway">
+        </a>
+        </div>
+
+        <div class="desc"><p>description of the image here</p></div>
+
+    </div>
+
+      <div class="img-gallery">
+        <div class="tooltip-gallery">
+          <span class="tooltiptext">====0====
+              <i class="title-tooltip">
+                <p><b>Artist</b> : All The Reamins</p>
+                <p><b>Description</b> : All That Remains is an American heavy metal band from Springfield, Massachusetts, formed in 1998.
+                  They have released eight studio albums, a live CD/DVD,
+                  and have sold over a million records worldwide.
+                  The group currently consists of vocalist Philip Labonte, guitarists Oli Herbert and Mike Martin, bassist Aaron Patrick, and former Diecast drummer Jason Costa.
+                  Labonte and Herbert are the only original members. In spite of this, the band's line-up had remained consistent from the release of 2008's Overcome until 2015's The Order of Things, spanning four albums.
+                  This line-up changed, however, in September 2015, when long-time bassist Jeanne Sagan left the band, with Patrick taking her place.
+                </p>
+                <p><b>Website</b> : 	allthatremainsonline.com </p>
+              </i>
+          </span>
+        <a target="_blank" href="../../img/cover/cover2">
+          <img src="../../img/cover/cover2.jpg" alt="Trolltunga Norway">
+        </a>
+      </div>
+
+        <div class="desc"><p>description of the image here</p></div>
+      </div>
+
+      <div class="img-gallery">
+        <a target="_blank" href="../../img/cover/cover3.jpg">
+          <img src="../../img/cover/cover3.jpg" alt="Trolltunga Norway">
+        </a>
+        <div class="desc"><p>description of the image here</p></div>
+      </div>
+
+      <div class="img-gallery">
+        <a target="_blank" href="../../img/cover/cover4.jpg">
+          <img src="../../img/cover/cover5.jpg" alt="Trolltunga Norway">
+        </a>
+        <div class="desc"><p>description of the image here</p></div>
+      </div>
+
+    </div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+  <!-- Footer -->
+
+  <div class="footer">
+
+    <div class="col-md-4">
+      <div class="text-muted">
+          <h1>Copyright 2017</h1>
+          <p>surely out of frustration, was talking about how postscripting your CSS values with !important can be highly abused and make for messy and hard to maintain CSS.</p>
+          <p>surely out of frustration, was talking about how postscripting your CSS values with !important</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="text-muted-profile">
+          <h1>Idris Sunarya</h1>
+          <div class="circle-footer"></div>
+      </div> <hr />
+    </div>
+
+    <div class="col-md-4">
+      <div class="text-muted">
+          <h1>Copyright 2017</h1>
+          <p>surely out of frustration, was talking about how postscripting your CSS values with !important can be highly abused and make for messy and hard to maintain CSS.</p>
+          <p>surely out of frustration, was talking about how postscripting your CSS values with !important</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
